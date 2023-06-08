@@ -1,8 +1,5 @@
 #!/bin/bash
-echo "Enter the 1st number:"
-read no1
-echo "Enter the 2nd number:"
-read no2
+
 sum=`expr $1 + $2`
 sub=`expr $1 - $2`
 mul=`expr $1 \* $2`
