@@ -1,5 +1,5 @@
 #!/bin/bash
-
-echo " $1 + $2 = "
+read $sum
+echo " $1 + $2 = $sum"
 
 
